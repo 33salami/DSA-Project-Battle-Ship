@@ -1,25 +1,25 @@
-# 1.1 Battleship Game Clone Overview
+# DSA Lab Final Project
 
 **Overview written by Peter Mitchell.**
 
 ## Contents
 
 ```
-1.1 Battleship Game Clone Overview
-1.2 Introduction
-1.3 The Rules of Battleship
-1.4 High Level Discussion About Implementation
-1.5 How the Core Game Works
-1.6 Features You Could Add
+1.0 Members
+1.1 Introduction
+1.2 Game Rules
+1.3 Game Mechanics
+1.4 Future Implementation
 ```
-# 1.2 Introduction
+# 1.0 Members
 
-This document will explain the fundamentals of how the Battleship game works.
+ITITIU22071 Nguyễn Danh Huy 
+Nguyễn Minh Hùng
+ITCSIU22280 Nguyễn Quách Dịch Thịnh
 
-- ([Youtube Demo](https://youtu.be/BaLBZEwchQY))
+# 1.1 Introduction
 
-# 1.3 The Rules of Battleship
-
+# 1.2 Game Rules
 Battleship has a simple set of rules that create an enjoyable game through trying to find an opponent’s
 ships before they find yours. The rules can be summarised as follow.
 
@@ -37,52 +37,8 @@ ships before they find yours. The rules can be summarised as follow.
     player with ships still not destroyed.
 
 
-# 1.4 High Level Discussion About Implementation
 
-The chosen implementation of Battleship for this example game has included multiple levels of AI to
-make it a single played game. When the game begins the dialog shown below appears before the main
-game opens to allow selection of the difficulty.
-
-<img src="./images/Picture1.jpg">
-
-The Easy AI will choose every move entirely randomly. The medium AI will choose random moves
-unless it has hit a ship that is not yet destroyed. It will attack random adjacent cells to the found hit
-location until the ship is destroyed. The hard AI will choose moves by considering the number of
-adjacent cells, and when it finds a ship, it will try to form a line of hit cells instead of choosing adjacent
-selection randomly.
-
-<img src="./images/Picture2.jpg"> <img src="./images/Picture3.jpg"> <img src="./images/Picture4.jpg">
-
-Once the game is open the player enters their ship placement phase. You can see in the above three
-images the progress through placing ships. In the first image one ship has been placed, and another
-ship is about to be placed. The green colour indicates the placement is valid. Using the left mouse
-button to click would place the ship. The middle panel shows the ship being placed as red. This
-indicates that the placement is not valid because it intersects another existing ship. Once all ships have
-been placed the image shown in the last panel will indicate the state has changed to allow attacking
-of the enemy. The player can then click in the top grid to make attacks.
-
-Clicking on each cell will mark the cell as either a hit or a miss (red or blue respectively). Once a ship
-is destroyed it will show the full ship as red behind the red markers. Once all the ships on one grid
-have been destroyed either the player will have won, or the computer will have won. This is shown as
-seen in the image below on the right.
-
-<img src="./images/Picture5.jpg"> <img src="./images/Picture6.jpg"> <img src="./images/Picture7.jpg">
-
-The controls can be summarised as the following.
-
-- At any time:
-    o Escape to quit.
-    o R to restart.
-    o D to activate debug mode to cheat and view the opponent’s ships.
-- During Placement Phase:
-    o Click to place ship (only places the ship if it is a valid placement).
-    o Z to rotate between vertical and horizontal for placement.
-- During Attack Phase:
-    o Click on the enemy’s grid in places that have not yet been marked to reveal the
-       squares as hits or misses.
-
-
-# 1.5 How the Core Game Works
+# 1.3 Game Mechanics
 
 This section will briefly describe the purpose of each class in the structure. It will not cover in detail all
 the methods that are included in each method. You can view the code to browse the in-depth
@@ -129,7 +85,7 @@ AI:
     highest number of unmarked adjacent cells.
 
 
-# 1.6 Features You Could Add
+# 1.4 Future Implementation
 
 There are many small changes that could be made to modify the game as it currently is. The following
 list summarises some of these possible changes.
