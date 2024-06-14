@@ -12,11 +12,11 @@
 1.4 Future Implementation
 ```
 # 1.0 Members
-
+```
 ITITIU22071 Nguyễn Danh Huy 
 Nguyễn Minh Hùng
 ITCSIU22280 Nguyễn Quách Dịch Thịnh
-
+```
 # 1.1 Introduction
 
 # 1.2 Game Rules
