@@ -1,7 +1,5 @@
 # DSA Lab Final Project
 
-**Overview written by Peter Mitchell.**
-
 ## Contents
 
 ```
