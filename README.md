@@ -14,7 +14,7 @@
 # 1.0 Members
 ```
 ITITIU22071 Nguyễn Danh Huy 
-Nguyễn Minh Hùng
+ITITIU22064 Nguyễn Minh Hùng
 ITCSIU22280 Nguyễn Quách Dịch Thịnh
 ```
 # 1.1 Introduction
