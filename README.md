@@ -47,5 +47,8 @@ Locate and eliminate enemy's ships before they do!
 - Ship: This is a term used to describe a ship that is meant to be drawn and keeps track of its position on the grid. When requested by other classes, the ship can also determine whether it has been destroyed.
 
 # 1.4 Future Implementation
-
+- Improve interface, additionally implement user customization for the ships and grids, etc.
+- Add different gameplay elements, for example: count down clock, effect items, preset modes, etc.
+- Add coreboard and perfomance analysis
+- Add Sound system for better experience
 
