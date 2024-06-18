@@ -16,6 +16,8 @@ ITITIU22064 Nguyễn Minh Hùng
 ITCSIU22280 Nguyễn Quách Dịch Thịnh
 ```
 # 1.1 Introduction
+- This is a DSA Laboratory final Group Project, allowing students to practice knowledge about Algorithms, Complexity and Data Structures by creating
+  a game with Java coding language. Additionally, students can implement advanced features or revise curriculum through the game development 
 
 # 1.2 Game Rules
 Locate and eliminate enemy's ships before they do!
