@@ -38,15 +38,14 @@ Locate and eliminate enemy's ships before they do!
 
 # 1.3 Game Mechanics
 
-- Marker: Symbolizes the red or blue colored markers that appear on the grid during an attack. These 10x10 are all made at the beginning and, if marked, drawn.
-  
-- Position: This is used to indicate a position with an x and y coordinate, primarily for grid coordinates, but it is also frequently used to provide pixel offsets for drawing.
-  
-- Rectangle: Used to represent a generic rectangle with collision detection against a single point and top corner, width, and height.
-  
-- SelectionGrid: The actual grid that illustrates the locations of cells with a set of lines and holds a collection of markers and ships. incorporates suitable techniques for maintaining the grid's condition.
-  
-- Ship: This is a term used to describe a ship that is meant to be drawn and keeps track of its position on the grid. When requested by other classes, the ship can also determine whether it has been destroyed.
+## Data Structures
+### Two-dimensional Array of Objects
+## Algorithms
+### Shuffle Algroithms
+### Random Algorithms
+## Time Complexity
+### Shuffle Algroithms
+### Random Algorithms
 
 # 1.4 Future Implementation
 - Improve interface, additionally implement user customization for the ships and grids, etc.
