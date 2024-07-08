@@ -36,16 +36,11 @@ Locate and eliminate enemy's ships before they do!
 
 
 
-# 1.3 Game Mechanics
+# 1.3 Algorithms
 
-## Data Structures
-### Two-dimensional Array of Objects
-## Algorithms
-### Shuffle Algroithms
-### Random Algorithms
-## Time Complexity
-### Shuffle Algroithms
-### Random Algorithms
+- Shuffle Algroithms
+- Random Algorithms
+
 
 # 1.4 Future Implementation
 - Improve interface, additionally implement user customization for the ships and grids, etc.
